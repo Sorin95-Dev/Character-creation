@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customize Avatar Appearance</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Customize Avatar Appearance</h1>
+    </div>
+
+    <div class="main-container">
+        <div class="left-panel">
+            <div class="section-title">
+                <span class="button-badge">LB</span>
+                <span>Eyes</span>
+                <span class="button-badge">RB</span>
+            </div>
+            
+            <div class="options-grid">
+                <div class="option-box selected">
+                    <div class="eyes-container">
+                        <div class="eye">
+                            <div class="pupil"></div>
+                        </div>
+                        <div class="eye">
+                            <div class="pupil"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="option-box">
+                    <div class="eyes-container">
+                        <div class="eye">
+                            <div class="pupil"></div>
+                        </div>
+                        <div class="eye">
+                            <div class="pupil"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="option-box">
+                    <div class="eye-single">
+                        <div class="pupil"></div>
+                    </div>
+                </div>
+                <div class="option-box">
+                    <div class="eyes-container">
+                        <div class="eye-lash"></div>
+                        <div class="eye-lash"></div>
+                    </div>
+                </div>
+                <div class="option-box"></div>
+                <div class="option-box"></div>
+                <div class="option-box"></div>
+                <div class="option-box"></div>
+                <div class="option-box"></div>
+                <div class="option-box"></div>
+            </div>
+        </div>
+
+        <div class="right-panel">
+            <div class="avatar-preview">
+                <div class="avatar-character">
+                    <div class="avatar-hair"></div>
+                    <div class="avatar-eyes">
+                        <div class="avatar-eye">
+                            <div class="avatar-pupil">
+                                <div class="avatar-highlight"></div>
+                            </div>
+                        </div>
+                        <div class="avatar-eye">
+                            <div class="avatar-pupil">
+                                <div class="avatar-highlight"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="avatar-arms">
+                        <div class="avatar-arm left"></div>
+                        <div class="avatar-arm right"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="body-shape-selector">
+                <div class="body-option" data-shape="0">
+                    <svg width="50" height="70" viewBox="0 0 50 70">
+                        <ellipse cx="25" cy="35" rx="18" ry="32" fill="#9d9d7a"/>
+                    </svg>
+                </div>
+                <div class="body-option selected" data-shape="1">
+                    <svg width="50" height="70" viewBox="0 0 50 70">
+                        <ellipse cx="25" cy="35" rx="22" ry="30" fill="#9d9d7a"/>
+                    </svg>
+                </div>
+                <div class="body-option" data-shape="2">
+                    <svg width="50" height="70" viewBox="0 0 50 70">
+                        <ellipse cx="25" cy="35" rx="25" ry="28" fill="#9d9d7a"/>
+                    </svg>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-buttons">
+            <button class="footer-btn">
+                <span class="btn-icon">⬅️</span>
+                Move
+            </button>
+            <button class="footer-btn">
+                <span class="btn-icon">A</span>
+                Select
+            </button>
+            <button class="footer-btn">
+                <span class="btn-icon">B</span>
+                Close Editor
+            </button>
+        </div>
+        <button class="continue-btn">
+            <span>Ⓐ</span>
+            Continue
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
